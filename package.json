@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jestrocss/free-robux/issues"
   },
-  "homepage": "https://github.com/jestrocss/free-robux#readme"
+  "homepage": "https://github.com/jestrocss/free-robux#readme",
+  "dependencies": {
+    "gatsby": "^4.11.2"
+  }
 }
