@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreeRobux</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+  <div id="app">
+    <v-app>
+      <v-main>
+        <section class="hero is-fullheight">
+          <div class="hero-body">
+            <v-container>
+              <v-card elevation="3" class="p-3">
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <span class="text-h4 d-block p-3">Free Robux</span>
+                        <span class="d-block px-3 pb-3">
+                          On this site you can get Robux as quickly as possible. And
+                          because
+                          this site is developed by Google, it is very safe and legal.
+                          Give
+                          it a try!
+                        </span>
+                      </p>
+                    </div>
+                    <div class="px-3 pb-3">
+                      <v-btn large color="primary" v-on:click="tryClicked()">Try now</v-btn>
+                    </div>
+                  </div>
+                </article>
+              </v-card>
+            </v-container>
+          </div>
+        </section>
+      </v-main>
+    </v-app>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      vuetify: new Vuetify(),
+      methods: {
+        tryClicked: function () {
+          const se = new Audio('shutter.mp3');
+          se.play();
+        }
+      },
+    })
+  </script>
+</body>
+</html>

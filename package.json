@@ -1,0 +1,20 @@
+{
+  "name": "free-robux",
+  "version": "1.0.0",
+  "description": "Free Robux",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestrocss/free-robux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jestrocss/free-robux/issues"
+  },
+  "homepage": "https://github.com/jestrocss/free-robux#readme"
+}
